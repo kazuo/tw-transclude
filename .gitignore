@@ -1,0 +1,6 @@
+.idea
+_tmp
+build
+dist
+node_modules
+jspm_packages
