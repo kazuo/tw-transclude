@@ -67,7 +67,7 @@ module.exports = function (grunt) {
             frameworks: ['chai', 'jspm', 'mocha'],
             reporters: ['spec'],
             jspm: {
-                loadFiles: ['src/**/*.js', 'test/**/*.spec.js'],
+                loadFiles: ['src/**/*.js', 'test/**/*.js'],
                 serveFiles: [
                     'src/**/!(*.spec).js'
                 ],
